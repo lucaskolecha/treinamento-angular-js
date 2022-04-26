@@ -1,8 +1,7 @@
 <div class="home-wrapper">
-    <h3>Home</h3>
-    <a ng-click="$ctrl.goAboutPage()">Ir para About Page</a>
-    <br />
-    <bp-input ng-model="$ctrl.inputValue"
-              ng-change="$ctrl.onChange($event)"
-              teste="$ctrl.testeDad" />
+    <h3>Nome do usuário</h3>
+    <!-- <a ng-click="$ctrl.goAboutPage()">Ir para About Page</a>
+    <br /> -->
+    <bp-input ng-model="$ctrl.userName"
+              on-keypress="$ctrl.batata($event)"></bp-input>
 </div>

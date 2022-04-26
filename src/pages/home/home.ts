@@ -2,12 +2,12 @@ import { IOnInit } from 'angular'
 import { HomeService } from './services/home.service'
 
 class HomePage implements IOnInit {
-  private inputValue: string = ''
-
-  constructor(private homeService: HomeService, private $scope, private $state, private $timeout) {}
+  constructor(private homeService: HomeService, private $scope, private $state) {}
 
   $onInit() {
-    this.homeService.log()
+    this.homeService.get().then((response) => {
+      console.log(response)
+    })
     this.$scope.$on('$destroy', () => {
       console.log('Destroy - Home')
     })
@@ -17,10 +17,8 @@ class HomePage implements IOnInit {
     this.$state.go('about')
   }
 
-  onChange() {
-    this.$timeout(() => {
-      console.log('onChange', this.inputValue)
-    })
+  batata($event) {
+    console.log('Executou', $event)
   }
 }
 

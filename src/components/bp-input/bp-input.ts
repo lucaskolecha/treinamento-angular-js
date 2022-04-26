@@ -1,5 +1,6 @@
 import { IOnInit } from 'angular'
 import template from './bp-input.html'
+import './bp-input.scss'
 
 class BpInputController implements IOnInit {
   constructor(private $scope, private $timeout) {}
@@ -16,8 +17,7 @@ class BpInputController implements IOnInit {
 const bpInput = {
   bindings: {
     ngModel: '=?',
-    ngChange: '&?',
-    placeholder: '@?',
+    onKeypress: '&?',
   },
   controller: BpInputController,
   template: template,

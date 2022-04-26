@@ -1,4 +1,10 @@
 <div class="about-wrapper">
     <h3>Sobre</h3>
     <a ng-click="$ctrl.goHomePage()">Ir para Home Page</a>
+    <div ng-show="$ctrl.aboutString == 'VERMELHO'">
+        <div ng-repeat="item in $ctrl.array"
+             ng-class="{'text-red': $first}">
+            {{$index}}{{item.name}}
+        </div>
+    </div>
 </div>
