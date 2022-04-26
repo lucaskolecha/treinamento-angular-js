@@ -10,5 +10,8 @@ ATENÇÃO: Lembre-se de componentizar ao máximo, botões, inputs, avatar e etc.
 
 # APIS
 
+## Get User
 https://api.github.com/users/nome_do_usuario
+
+## Get Repos
 https://api.github.com/users/nome_do_usuario/repos
