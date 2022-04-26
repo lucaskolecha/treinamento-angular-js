@@ -7,7 +7,7 @@ class HomePage implements IOnInit {
   constructor(private homeService: HomeService, private $scope, private $state, private $timeout) {}
 
   $onInit() {
-    this.homeService.teste()
+    this.homeService.log()
     this.$scope.$on('$destroy', () => {
       console.log('Destroy - Home')
     })

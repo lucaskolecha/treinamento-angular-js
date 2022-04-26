@@ -1,7 +1,7 @@
 class HomeService {
   constructor(public $http) {}
 
-  teste() {
+  log() {
     console.log('Home - Service')
   }
 }
