@@ -5,3 +5,8 @@
 - Ter um botão na página inicial para ir para outra página onde será listado os repositórios daquele ususário do git
 
 - Faça frescuras com - ng-show | ng-if | ng-class - para treinar nas diretivas 
+
+# APIS
+
+https://api.github.com/users/<nomedousuario>
+https://api.github.com/users/gcarniel/<nomedoususario>
