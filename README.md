@@ -1,8 +1,8 @@
 # Tarefinha
 
 - Página inicial ter input para digitar o nome do usuário do github
-- Após digitar o nome pesquisar na API do github e mostrar a foto e o nome da pessoa na página inicial
-- Ter um botão na página inicial para ir para outra página onde será listado os repositórios daquele ususário do git
+- Após digitar o nome pesquisar na API do github e mostrar a foto e o nome da pessoa na página de sobre
+- Na página de sobre listar os repositórios daquele usuário e ter como favorita-los
 
 - Faça frescuras com - ng-show | ng-if | ng-class - para treinar nas diretivas 
 
