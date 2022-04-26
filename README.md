@@ -11,4 +11,4 @@ ATENÇÃO: Lembre-se de componentizar ao máximo, botões, inputs, avatar e etc.
 # APIS
 
 https://api.github.com/users/nome_do_usuario
-https://api.github.com/users/gcarniel/nome_do_usuario
+https://api.github.com/users/nome_do_usuario/repos
