@@ -1,37 +1,7 @@
-# angularjs-ts-boilerplate
+# Tarefinha
 
-A boilerplate using typescript to develop angularjs. 
+- Página inicial ter input para digitar o nome do usuário do github
+- Após digitar o nome pesquisar na API do github e mostrar a foto e o nome da pessoa na página inicial
+- Ter um botão na página inicial para ir para outra página onde será listado os repositórios daquele ususário do git
 
-- TsLint
-- Translate (i18n)
-- Reset CSS
-- PostCSS
-
-## Dependencies
-
-- angularjs ^1.7.8
-- @uirouter ^1.0.22
-- webpack ^4.29.6
-- typescript ^3.3.4000
-
-## development
-
-	git clone --depth=1 https://github.com/mateusmirandaalmeida/angularjs-ts-boilerplate.git your-project-name
-
-	cd your-project-name
-
-	npm install
-
-	npm run dev
-
-## production
-
-    npm run prod
-
-    Your project -> /public
-
-## editor configuration
-
-### vscode
-
-- [TSLint](https://github.com/palantir/tslint)
+- Faça frescuras com - ng-show | ng-if | ng-class - para treinar nas diretivas 
