@@ -6,6 +6,8 @@
 
 - Faça frescuras com - ng-show | ng-if | ng-class - para treinar nas diretivas 
 
+ATENÇÃO: Lembre-se de componentizar ao máximo, botões, inputs, avatar e etc....
+
 # APIS
 
 https://api.github.com/users/<nomedousuario>
